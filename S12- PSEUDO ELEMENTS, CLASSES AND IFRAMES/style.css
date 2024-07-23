@@ -1,0 +1,51 @@
+h1{
+    background-color: aqua;
+    color: chocolate;
+    text-align: center;
+    font-size:3rem;
+}
+h1::first-letter{
+    font-size: 4rem;
+    color: black;
+}
+h2{
+    background-color: cadetblue;
+    color: red;
+    font-size: 2rem;
+}
+h1::selection, p::selection{
+    background-color: green;
+    color: deeppink;
+}
+h1::after{
+    content: "🎥";
+}
+h2::before{
+    content: "🎑";
+}
+p:hover{
+    background-color: forestgreen;
+    color: cornflowerblue;
+}
+h3{
+    background-color: cadetblue;
+    color: red;
+    font-size: 3rem;
+}
+ h2:hover, h3:hover{
+    background-color: aqua;
+}
+a:visited{
+    color: orange;
+}
+a:link{
+    color: brown;
+}
+a:active{
+    color: black;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+
